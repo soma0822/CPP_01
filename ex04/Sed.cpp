@@ -6,7 +6,7 @@
 /*   By: sinagaki <sinagaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/05 13:36:06 by sinagaki          #+#    #+#             */
-/*   Updated: 2023/08/20 10:57:04 by sinagaki         ###   ########.fr       */
+/*   Updated: 2023/08/20 11:00:46 by sinagaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ Sed::~Sed(void)
 
 
 
-int	Sed::replace_helper(std::string s1, std::string s2)
+int	Sed::executeReplace(std::string s1, std::string s2)
 {
 	std::string	str;
 	if (s1.empty())
@@ -56,7 +56,7 @@ void	Sed::replace(std::string s1, std::string s2)
 {
 	int	value;
 	
-	value = this->replace_helper(s1, s2);
+	value = this->executeReplace(s1, s2);
 	if (value == 1)
 		std::cout << ERROR_MES << std::endl;
 	else if (value == 2)
