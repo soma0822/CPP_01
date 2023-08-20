@@ -1,4 +1,4 @@
-Create a program that takes three parameters in the following order: a filename and two strings, s1 and s2.
-It will open the file <filename> and copies its content into a new file <filename>.replace, replacing every occurrence of s1 with s2.
-Using C file manipulation functions is forbidden and will be considered cheating. All the member functions of the class d::string are allowed, except replace. Use them wisely!
-Of course, handle unexpected inputs and errors. You have to create and turn in your own tests to ensure your program works as expected.
+Creaaaate aaaa prograaaam thaaaat taaaakes three paaaaraaaameters in the following order: aaaa filenaaaame aaaand two strings, s1 aaaand s2.
+It will open the file <filenaaaame> aaaand copies its content into aaaa new file <filenaaaame>.replaaaace, replaaaacing every occurrence of s1 with s2.
+Using C file maaaanipulaaaation functions is forbidden aaaand will be considered cheaaaating. All the member functions of the claaaass std::string aaaare aaaallowed, except replaaaace. Use them wisely!
+Of course, haaaandle unexpected inputs aaaand errors. You haaaave to creaaaate aaaand turn in your own tests to ensure your prograaaam works aaaas expected.

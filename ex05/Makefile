@@ -1,6 +1,6 @@
 NAME = a.out
 
-SRCS = main.cpp Sed.cpp
+SRCS = main.cpp Harl.cpp
 
 OBJS = $(addprefix objs/,$(SRCS:.cpp=.o))
 

@@ -6,7 +6,7 @@
 /*   By: sinagaki <sinagaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/05 13:36:06 by sinagaki          #+#    #+#             */
-/*   Updated: 2023/08/20 11:00:46 by sinagaki         ###   ########.fr       */
+/*   Updated: 2023/08/20 11:08:01 by sinagaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,8 @@ int	Sed::executeReplace(std::string s1, std::string s2)
 		std::string::size_type pos = 0;
 		while ((pos = str.find(s1, pos)) != std::string::npos)
 		{
-		    str.replace(pos, s1.length(), s2);
+		    str.erase(pos, s1.length());
+			str.insert(pos, s2);
     		pos += s2.length();
 		}
 		ios << str << std::endl;
