@@ -6,7 +6,7 @@
 /*   By: sinagaki <sinagaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/20 11:22:42 by sinagaki          #+#    #+#             */
-/*   Updated: 2023/08/20 12:43:39 by sinagaki         ###   ########.fr       */
+/*   Updated: 2023/08/20 13:21:06 by sinagaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,18 @@ int	main(void)
 	harl.complain("ERROR");
 	harl.complain("INVALID");
 }
+
+/* int	main(void)
+{
+	Harl	harl;
+	std::string input = "";
+	
+	std::cout << INPUT_MES << std::flush;
+	std::cin >> input;
+	while (input.compare("EXIT"))
+	{
+		harl.complain(input);
+		std::cout << INPUT_MES << std::flush;
+		std::cin >> input;
+	}
+} */

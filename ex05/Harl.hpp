@@ -6,7 +6,7 @@
 /*   By: sinagaki <sinagaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/20 11:22:39 by sinagaki          #+#    #+#             */
-/*   Updated: 2023/08/20 12:54:30 by sinagaki         ###   ########.fr       */
+/*   Updated: 2023/08/20 13:18:54 by sinagaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # define WARNING "I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here since last month."
 # define ERROR "This is unacceptable! I want to speak to the manager now."
 # define INVALID_ERROR "\033[31mInvalid error\033[0m"
+# define INPUT_MES "\033[33mPlease input level: \033[0m"
 
 
 class Harl
